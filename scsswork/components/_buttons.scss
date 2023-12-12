@@ -1,0 +1,31 @@
+.btn1 {
+  width: 185px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  font-size: 16px;
+  background: 0;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn1:hover {
+  background: #1c1e53;
+  border: 0;
+}
+.btn2 {
+  width: 230px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  font-size: 16px;
+  background: #fcd980;
+  color: #000;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn2:hover {
+  background: 0;
+}
