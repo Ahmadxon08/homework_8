@@ -1,0 +1,120 @@
+// @import url('./_colors.scss');
+// @import 'colors';
+// @use './abstracts/colors';
+// @use './base/reset';
+
+@use "abstracts" as *;
+@use "base" as *;
+@use "components" as *;
+@use "layout" as *;
+@use "pages" as *;
+@use "themes" as *;
+@use "vendors" as *;
+
+.navbar {
+  background: #1c1e53;
+  height: 92px;
+}
+.header {
+  background: var(--Grey, #f4f6fc);
+  height: 416px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 391px;
+}
+.nav1 {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+.head1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 100px;
+}
+.head1 h4 {
+  color: #282938;
+  font-size: 16px;
+}
+.head1 h1 {
+  font-size: 48px;
+}
+
+.all1 {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  padding-top: 100px;
+}
+.all1 h4 {
+  cursor: pointer;
+  font-size: 18px;
+}
+.all1 h4:hover {
+  color: var(--Royal-Blue, #2405f2);
+}
+.all2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 50px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.all3 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.view {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.view h4:hover {
+  color: yellow;
+  cursor: pointer;
+}
+.lets {
+  text-align: center;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 200px;
+  align-items: center;
+}
+.foot {
+  height: 489px;
+  background: #1c1e53;
+  margin-top: 150px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.foot1 {
+  display: flex;
+  align-items: center;
+  gap: 160px;
+}
+.foot2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.foot3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
